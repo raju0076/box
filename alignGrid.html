@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        #container{
+            width: 60%;
+            height: 500px;
+            background-color: antiquewhite;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr);
+            place-items: center;
+            gap: 10px;
+
+        }
+        #container div{
+            border: 1px solid black;
+           
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="container">
+        <div>item1
+            
+        </div>
+        <div>item2</div>
+        <div>item3</div>
+        <div>item4</div>
+    </div>
+</body>
+</html>
